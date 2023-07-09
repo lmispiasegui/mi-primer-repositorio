@@ -1,0 +1,3 @@
+#Depurar errores de selenium en windows
+options = webdriver.ChromeOptions() 
+options.add_experimental_option("excludeSwitches", ["enable-logging"])
